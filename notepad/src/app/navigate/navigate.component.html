@@ -1,0 +1,11 @@
+<div class="vertical-menu">
+    <div class="content-container">
+        <button (click)="addNote()">new</button>
+        <div class="scroll-box">
+            <div class="note-list" *ngFor="let note of notesValue">
+                <app-thumbnail (click)="setSelectedNote(note)" [note]="note"></app-thumbnail>
+                <div class="delete-button" (click)="deleteNote(note)">x</div>
+            </div>
+        </div>
+    </div>
+</div>

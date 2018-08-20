@@ -1,0 +1,14 @@
+header {
+    background-color:#A2D9CE;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    cursor: default;
+    height: 120px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+}

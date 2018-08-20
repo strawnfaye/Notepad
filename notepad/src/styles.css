@@ -1,0 +1,11 @@
+body {
+    background-color: #73C6B6;
+    margin: 0px;
+}
+
+app-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
